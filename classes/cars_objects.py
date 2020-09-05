@@ -8,7 +8,7 @@ car1.set_color('Red')
 print(car1.get_description())
 print(car1.read_odometer())
 
-car1.odometer_reading = 1000
+car1.odometer_reading = 1000 # how to restrict this
 print(car1.read_odometer())
 print(car1.odometer_reading)
 
@@ -45,4 +45,8 @@ ecar1.test_method()
 # - parent does not have access to child attributes/method
 
 
-
+# - OOP concepts:
+# inheritance - reuse the code from other class(es)
+#  polymorphism - (overriding, overloading, technics)using the same methods (methods names), but implemented differently
+# abstraction - (more for c#, JAVA >> class, method)making abstract classes (for planning, making rules for child classes)
+# encapsulation - putting in a capsule(data hiding or method hiding)

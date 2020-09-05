@@ -71,9 +71,36 @@ class ElectricCar(Car): # Inheritting Car class
 
 
 
+class Shape():
+
+    @classmethod
+    def area(self):
+        pass
+
+    @classmethod
+    def perimetr(self):
+        pass
 
 
 
 
+class Rectangle(Shape):
+
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+
+class Triangle(Shape):
+
+    def __init__(self, height, base):
+        self.height = height
+        self.base = base
+
+    def area(self):
+        return 0.5 * self.height *self.base
 
 
